@@ -24,12 +24,24 @@
     <ClCompile Include="WinSockInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaperHomeConsts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WinSockInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="define_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaperHomeConsts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

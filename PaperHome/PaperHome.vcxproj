@@ -121,10 +121,14 @@
   <ItemGroup>
     <ClCompile Include="defs.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PaperHomeConsts.cpp" />
+    <ClCompile Include="Socket.cpp" />
     <ClCompile Include="WinSockInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="define_exception.h" />
+    <ClInclude Include="PaperHomeConsts.h" />
+    <ClInclude Include="Socket.h" />
     <ClInclude Include="WinSockInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
