@@ -119,6 +119,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Communicator.cpp" />
     <ClCompile Include="defs.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PaperHomeConsts.cpp" />
@@ -126,6 +127,7 @@
     <ClCompile Include="WinSockInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Communicator.h" />
     <ClInclude Include="define_exception.h" />
     <ClInclude Include="PaperHomeConsts.h" />
     <ClInclude Include="Socket.h" />

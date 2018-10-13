@@ -8,6 +8,7 @@ using std::wstring;
 
 class PaperHomeConsts {
 public:
-	static const wstring PaperHomeServerIP;
+	static const string PaperHomeServerIP;
 	static const WORD PaperHomeServerPort;
+	static const DWORD PaperHomeTryToConnectInterval;
 };
